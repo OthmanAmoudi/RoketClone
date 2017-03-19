@@ -1,5 +1,5 @@
 //
-//  HealthKitManagerClass.swift
+//  HealthKitManager.swift
 //  RoketClone
 //
 //  Created by Othman Mashaab on 19/03/2017.
@@ -9,9 +9,10 @@
 
 import Foundation
 import HealthKit
+import CoreLocation
 
 class HealthKitManager {
-    let executeQuery = HKHealthStore()
+    let storage = HKHealthStore()
     
     init()
     {
@@ -30,7 +31,7 @@ class HealthKitManager {
             let steps = NSSet(object: HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.stepCount)!)
             
             // Now we can request authorization for step count data
-            executeQuery.requestAuthorization(toShare: nil, read: steps as? Set<HKObjectType>) { (success, error) -> Void in
+            storage.requestAuthorization(toShare: nil, read: steps as? Set<HKObjectType>) { (success, error) -> Void in
                 isEnabled = success
             }
         }
@@ -41,6 +42,7 @@ class HealthKitManager {
         
         return isEnabled
     }
+
     
     func retrieveStepCount(completion: @escaping (_ stepRetrieved: Double) -> Void) {
         
@@ -68,13 +70,13 @@ class HealthKitManager {
                 return
             }
             
-            
         }
         
-        executeQuery.execute(query)
+        storage.execute(query)
         
         
         
     }
+    
 
 }

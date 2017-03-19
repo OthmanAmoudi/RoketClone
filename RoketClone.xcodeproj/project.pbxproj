@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B994D66B6838F869526EFC /* Pods_RoketClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB74085654932F14B8AD537 /* Pods_RoketClone.framework */; };
+		49B1F77B1E7D38A100B6C410 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B1F77A1E7D38A100B6C410 /* Home.storyboard */; };
+		49B1F77D1E7D38B600B6C410 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1F77C1E7D38B600B6C410 /* HomeViewController.swift */; };
+		49B1F7811E7E57EA00B6C410 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1F7801E7E57EA00B6C410 /* User.swift */; };
+		49B1F7871E7EB83900B6C410 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1F7861E7EB83900B6C410 /* ProgressViewController.swift */; };
+		49B1F78C1E7EBC0200B6C410 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1F78B1E7EBC0200B6C410 /* HealthKitManager.swift */; };
+		49B1F78E1E7EC4F800B6C410 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B1F78D1E7EC4F800B6C410 /* CoreLocation.framework */; };
+		49B1F7931E7ED80900B6C410 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B1F7921E7ED80900B6C410 /* HealthKit.framework */; };
+		49B1F7951E7EF61500B6C410 /* HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1F7941E7EF61500B6C410 /* HealthKit.swift */; };
+		49B1F79E1E7F0F0400B6C410 /* InviteFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1F79D1E7F0F0400B6C410 /* InviteFriendsViewController.swift */; };
+		49B1F7A01E7F179400B6C410 /* StepsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1F79F1E7F179400B6C410 /* StepsData.swift */; };
+		49E830071E7BA9BC00F93427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E830061E7BA9BC00F93427 /* AppDelegate.swift */; };
+		49E830091E7BA9BC00F93427 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E830081E7BA9BC00F93427 /* AuthViewController.swift */; };
+		49E8300C1E7BA9BC00F93427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E8300A1E7BA9BC00F93427 /* Main.storyboard */; };
+		49E8300F1E7BA9BC00F93427 /* RoketClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49E8300D1E7BA9BC00F93427 /* RoketClone.xcdatamodeld */; };
+		49E830111E7BA9BC00F93427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E830101E7BA9BC00F93427 /* Assets.xcassets */; };
+		49E830141E7BA9BC00F93427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E830121E7BA9BC00F93427 /* LaunchScreen.storyboard */; };
+		49E8301C1E7BBD4A00F93427 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E8301B1E7BBD4A00F93427 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DB74085654932F14B8AD537 /* Pods_RoketClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoketClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A531A543C311FF1352857F /* Pods-RoketClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoketClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoketClone/Pods-RoketClone.release.xcconfig"; sourceTree = "<group>"; };
+		49B1F77A1E7D38A100B6C410 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		49B1F77C1E7D38B600B6C410 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		49B1F7801E7E57EA00B6C410 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		49B1F7861E7EB83900B6C410 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		49B1F78B1E7EBC0200B6C410 /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		49B1F78D1E7EC4F800B6C410 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		49B1F78F1E7ED7BD00B6C410 /* RoketClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoketClone.entitlements; sourceTree = "<group>"; };
+		49B1F7921E7ED80900B6C410 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		49B1F7941E7EF61500B6C410 /* HealthKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKit.swift; sourceTree = "<group>"; };
+		49B1F79D1E7F0F0400B6C410 /* InviteFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendsViewController.swift; sourceTree = "<group>"; };
+		49B1F79F1E7F179400B6C410 /* StepsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsData.swift; sourceTree = "<group>"; };
+		49E830031E7BA9BC00F93427 /* RoketClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoketClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E830061E7BA9BC00F93427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49E830081E7BA9BC00F93427 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		49E8300B1E7BA9BC00F93427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49E8300E1E7BA9BC00F93427 /* RoketClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoketClone.xcdatamodel; sourceTree = "<group>"; };
+		49E830101E7BA9BC00F93427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49E830131E7BA9BC00F93427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49E830151E7BA9BC00F93427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E8301B1E7BBD4A00F93427 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9F6797100BFA24B49AB55D1 /* Pods-RoketClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoketClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoketClone/Pods-RoketClone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E830001E7BA9BC00F93427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B1F7931E7ED80900B6C410 /* HealthKit.framework in Frameworks */,
+				49B1F78E1E7EC4F800B6C410 /* CoreLocation.framework in Frameworks */,
+				11B994D66B6838F869526EFC /* Pods_RoketClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B1F7751E7BF6B300B6C410 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				49B1F78F1E7ED7BD00B6C410 /* RoketClone.entitlements */,
+				49E830061E7BA9BC00F93427 /* AppDelegate.swift */,
+				49E830121E7BA9BC00F93427 /* LaunchScreen.storyboard */,
+				49E830101E7BA9BC00F93427 /* Assets.xcassets */,
+				49E830151E7BA9BC00F93427 /* Info.plist */,
+				49E8301B1E7BBD4A00F93427 /* GoogleService-Info.plist */,
+				49E8300D1E7BA9BC00F93427 /* RoketClone.xcdatamodeld */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		49B1F7761E7BF6E600B6C410 /* Authintication */ = {
+			isa = PBXGroup;
+			children = (
+				49E8300A1E7BA9BC00F93427 /* Main.storyboard */,
+				49E830081E7BA9BC00F93427 /* AuthViewController.swift */,
+				49B1F7801E7E57EA00B6C410 /* User.swift */,
+				49B1F79F1E7F179400B6C410 /* StepsData.swift */,
+			);
+			name = Authintication;
+			sourceTree = "<group>";
+		};
+		49B1F7781E7BF70A00B6C410 /* Userinterface */ = {
+			isa = PBXGroup;
+			children = (
+				49B1F77A1E7D38A100B6C410 /* Home.storyboard */,
+				49B1F77C1E7D38B600B6C410 /* HomeViewController.swift */,
+				49B1F7861E7EB83900B6C410 /* ProgressViewController.swift */,
+				49B1F79D1E7F0F0400B6C410 /* InviteFriendsViewController.swift */,
+			);
+			name = Userinterface;
+			sourceTree = "<group>";
+		};
+		49B1F7791E7BF73800B6C410 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		49B1F78A1E7EBBE500B6C410 /* HealthKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				49B1F78B1E7EBC0200B6C410 /* HealthKitManager.swift */,
+				49B1F7941E7EF61500B6C410 /* HealthKit.swift */,
+			);
+			name = HealthKitManager;
+			sourceTree = "<group>";
+		};
+		49E82FFA1E7BA9BC00F93427 = {
+			isa = PBXGroup;
+			children = (
+				49E830051E7BA9BC00F93427 /* RoketClone */,
+				49E830041E7BA9BC00F93427 /* Products */,
+				EA096B216E397CC8F6E824FC /* Pods */,
+				C4CC3C7B26B6F941B67129CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49E830041E7BA9BC00F93427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E830031E7BA9BC00F93427 /* RoketClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E830051E7BA9BC00F93427 /* RoketClone */ = {
+			isa = PBXGroup;
+			children = (
+				49B1F78A1E7EBBE500B6C410 /* HealthKitManager */,
+				49B1F7751E7BF6B300B6C410 /* Support */,
+				49B1F7761E7BF6E600B6C410 /* Authintication */,
+				49B1F7781E7BF70A00B6C410 /* Userinterface */,
+				49B1F7791E7BF73800B6C410 /* New Group */,
+			);
+			path = RoketClone;
+			sourceTree = "<group>";
+		};
+		C4CC3C7B26B6F941B67129CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B1F7921E7ED80900B6C410 /* HealthKit.framework */,
+				49B1F78D1E7EC4F800B6C410 /* CoreLocation.framework */,
+				0DB74085654932F14B8AD537 /* Pods_RoketClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA096B216E397CC8F6E824FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9F6797100BFA24B49AB55D1 /* Pods-RoketClone.debug.xcconfig */,
+				26A531A543C311FF1352857F /* Pods-RoketClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49E830021E7BA9BC00F93427 /* RoketClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E830181E7BA9BC00F93427 /* Build configuration list for PBXNativeTarget "RoketClone" */;
+			buildPhases = (
+				87696A86C05E4D6CDD823C19 /* [CP] Check Pods Manifest.lock */,
+				49E82FFF1E7BA9BC00F93427 /* Sources */,
+				49E830001E7BA9BC00F93427 /* Frameworks */,
+				49E830011E7BA9BC00F93427 /* Resources */,
+				A4B11369A9199AF6995CDBB7 /* [CP] Embed Pods Frameworks */,
+				81183B03343F7347F2BC3565 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoketClone;
+			productName = RoketClone;
+			productReference = 49E830031E7BA9BC00F93427 /* RoketClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49E82FFB1E7BA9BC00F93427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Othman Mashaab";
+				TargetAttributes = {
+					49E830021E7BA9BC00F93427 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KB93Y7F453;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 49E82FFE1E7BA9BC00F93427 /* Build configuration list for PBXProject "RoketClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49E82FFA1E7BA9BC00F93427;
+			productRefGroup = 49E830041E7BA9BC00F93427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E830021E7BA9BC00F93427 /* RoketClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E830011E7BA9BC00F93427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E830141E7BA9BC00F93427 /* LaunchScreen.storyboard in Resources */,
+				49B1F77B1E7D38A100B6C410 /* Home.storyboard in Resources */,
+				49E830111E7BA9BC00F93427 /* Assets.xcassets in Resources */,
+				49E8300C1E7BA9BC00F93427 /* Main.storyboard in Resources */,
+				49E8301C1E7BBD4A00F93427 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81183B03343F7347F2BC3565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoketClone/Pods-RoketClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87696A86C05E4D6CDD823C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B11369A9199AF6995CDBB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoketClone/Pods-RoketClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E82FFF1E7BA9BC00F93427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B1F7951E7EF61500B6C410 /* HealthKit.swift in Sources */,
+				49B1F7A01E7F179400B6C410 /* StepsData.swift in Sources */,
+				49E830091E7BA9BC00F93427 /* AuthViewController.swift in Sources */,
+				49B1F7811E7E57EA00B6C410 /* User.swift in Sources */,
+				49E830071E7BA9BC00F93427 /* AppDelegate.swift in Sources */,
+				49B1F79E1E7F0F0400B6C410 /* InviteFriendsViewController.swift in Sources */,
+				49B1F7871E7EB83900B6C410 /* ProgressViewController.swift in Sources */,
+				49B1F78C1E7EBC0200B6C410 /* HealthKitManager.swift in Sources */,
+				49E8300F1E7BA9BC00F93427 /* RoketClone.xcdatamodeld in Sources */,
+				49B1F77D1E7D38B600B6C410 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49E8300A1E7BA9BC00F93427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E8300B1E7BA9BC00F93427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49E830121E7BA9BC00F93427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E830131E7BA9BC00F93427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49E830161E7BA9BC00F93427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49E830171E7BA9BC00F93427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E830191E7BA9BC00F93427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F6797100BFA24B49AB55D1 /* Pods-RoketClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoketClone/RoketClone.entitlements;
+				DEVELOPMENT_TEAM = KB93Y7F453;
+				INFOPLIST_FILE = RoketClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Othman.RoketClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49E8301A1E7BA9BC00F93427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A531A543C311FF1352857F /* Pods-RoketClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoketClone/RoketClone.entitlements;
+				DEVELOPMENT_TEAM = KB93Y7F453;
+				INFOPLIST_FILE = RoketClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Othman.RoketClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E82FFE1E7BA9BC00F93427 /* Build configuration list for PBXProject "RoketClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E830161E7BA9BC00F93427 /* Debug */,
+				49E830171E7BA9BC00F93427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E830181E7BA9BC00F93427 /* Build configuration list for PBXNativeTarget "RoketClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E830191E7BA9BC00F93427 /* Debug */,
+				49E8301A1E7BA9BC00F93427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49E8300D1E7BA9BC00F93427 /* RoketClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49E8300E1E7BA9BC00F93427 /* RoketClone.xcdatamodel */,
+			);
+			currentVersion = 49E8300E1E7BA9BC00F93427 /* RoketClone.xcdatamodel */;
+			path = RoketClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 49E82FFB1E7BA9BC00F93427 /* Project object */;
+}

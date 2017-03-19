@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>526068552348-04lvrbbgs3m2e94mp7kb1ilufsckih01.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.526068552348-04lvrbbgs3m2e94mp7kb1ilufsckih01</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCO4Wb3_RepF9x5T6UGkaRF-RrHHPJjxNI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>526068552348</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Othman.RoketClone</string>
+	<key>PROJECT_ID</key>
+	<string>roketothman-ae689</string>
+	<key>STORAGE_BUCKET</key>
+	<string>roketothman-ae689.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:526068552348:ios:78550b64de2d08d7</string>
+	<key>DATABASE_URL</key>
+	<string>https://roketothman-ae689.firebaseio.com</string>
+</dict>
+</plist>
